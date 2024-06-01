@@ -46,3 +46,52 @@
 !["Array's size"](./Assets/image5.png)
 
 ![code](./Assets/image6.png)
+
+---
+<br>
+
+## *Input And Output in Array*
+- We can simple input Or output a data with the help of the index of the array.
+- And for printing the element of the array we can use the for loop.
+- In a similar fashion like we have tried to print the value of the loops we can enter the value in the array.
+
+!["Input output in the array"](./Assets/image7.png)
+
+---
+<br>
+
+## *Array's are passed by reference*
+- In c++ an array name is considered as a Pointer.
+- And the array name points to the first element of the array i.e it holds the address of the first element of the array.
+- Its because the Array name acts as a pointer theerefore whenever we pass a array inside a function then it is passed as reference.
+
+!["Array passed as Reference"](./Assets/image8.png)
+
+---
+<br>
+
+## *Binary Search Time Complexity Solution*
+
+![Step-1](./Assets/image9.png)
+
+![Step-2](./Assets/image10.png)
+
+![Step-3](./Assets/image11.png)
+
+![Step-4](./Assets/image12.png)
+
+---
+<br>
+
+## *Array's Pointer*
+- The name of the Array is considered as a Constant Pointer. And it holds the memory address of the first element of the array.
+- We consider it as the constant Pointer because we cann't change or store any other value in it. It can hold only the address of the first element of the array.
+
+### *Pointer's Arithmetic*
+!["Increment Decrement"](./Assets/image13.png)
+
+!["Addition and Subtraction of constants"](./Assets/image14.png) 
+
+!["Addition and Subtraction of constants"](./Assets/image15.png)
+
+!["Pointer Comparison"](./Assets/image16.png)
