@@ -95,3 +95,79 @@
 !["Addition and Subtraction of constants"](./Assets/image15.png)
 
 !["Pointer Comparison"](./Assets/image16.png)
+
+---
+<br>
+
+### *Sub-array Problem*
+- In sub-array we take the continuous part of the array.
+- In some what same way we have the `sub-sequence` where it doesn't matter to take the elements in continuos fashion we can take them in non-continuous way without changing there order.
+
+![Step-1](./Assets/image17.png)
+
+![calculation](./Assets/image18.png)
+
+!["Code this"](./Assets/image19.png)
+
+**Now we just need to print the elements withtin this range of start and end.**
+
+!["Code this"](./Assets/image20.png)
+
+---
+<br>
+
+### *Max sub-array find problem*
+- We don't have to do anything in that case just like we printed the elements calculate the sum.
+
+!["Max Sub-array"](./Assets/image21.png)
+
+!["Max Sub-array-2"](./Assets/image22.png)
+
+### *Optimization on Brute force Approach of Max sub-array problem*
+- Here we just need to apply the Optimization on the Brute Force Approach.
+
+!["Optimization on Brute-Force"](./Assets/image23.png)
+
+### *Kadane's Algorithm (DP)*
+- With the help of Kadane's Algorithm we can find the maximum sum of a sub-array with the single loop itself.
+- We can barely have 3 conditions will finding the max sum.
+    1. +ve(number) + +ve(number) -> Will give a +ve(number) only
+    2. +ve(Bigger value) + -ve(number) -> Will give a +ve(number) itslef
+    3. -ve(Bigger value) + +ve(number) -> Will give a -ve(number)
+
+- Inside the Kadane's Algorithm we take two variables as -
+    1. Currsum -> For holding the current sum.
+    2. MaxSum -> Which will hold the maximum sum found till now.
+
+- Overall Logic of Kadane's Algorithm was to discard the negative value because adding a negative value in the maxsum won't give us actually the maximum sum infact it would just decrease the value.
+- So where so ever we find that our sum have become less than 0 then just re-initialize the currSum with 0. Because the sub-array till that part which has become negative is of no use.
+
+!["Kadane's Logic-1"](./Assets/image24.png)
+
+!["Kadane's Logic with pseudo code"](./Assets/image25.png)
+
+## *Buy And Sell Stock Problem [Leetcode-121]*
+![Understanding-1](./Assets/image26.png)
+
+![Understanding-2](./Assets/image27.png)
+
+![Understanding-3](./Assets/image28.png)
+
+## *Trapping Rainwater Problem [Leetcode-42]*
+![Understanding-1](./Assets/image29.png)
+
+![Understanding-2](./Assets/image30.png)
+
+![Understanding-3](./Assets/image31.png)
+
+![Understanding-4](./Assets/image32.png)
+
+![Understanding-5](./Assets/image33.png)
+
+![Understanding-6](./Assets/image34.png)
+
+![Understanding-7](./Assets/image35.png)
+
+![Understanding-8](./Assets/image36.png)
+
+![Understanding-9](./Assets/image37.png)
