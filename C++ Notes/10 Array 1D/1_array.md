@@ -1,4 +1,4 @@
-# *Array's*
+# *Array's (1D Array)*
 - Array is a data structure i.e used for storing `Linear` data within in it.
 - Therefore we can say array is a linear data structure.
 - Array's are used for storing similar data type elements in it. That is they accomodate only homogenous data type items in it.

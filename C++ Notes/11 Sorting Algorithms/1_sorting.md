@@ -1,4 +1,4 @@
-# Sorting Algorithm
+# *Sorting Algorithm*
 - It is a technique of arranging the elements either in the ascending (smaller to bigger) fashion or in the descending (larger to smaller) manner.
 - Now the sorting tecniques we are going to see like the `Bubble Sort`, `Insertion Sort`, `Selection Sort` or `Count Sort` there aren't used much in solving Problems because of their high time complexity.
 - By default the sorting when we say means we are trying to sort the things in ascending fashion.
@@ -7,7 +7,7 @@
 ---
 <br>
 
-## 1.) Bubble Sort Algorithm
+## *1.) Bubble Sort Algorithm*
 - The technique of Bubble sort is we try to compare the adjacent element if the element first element is larger then other then swap otherwise don't do anything and move forward like this we try to push the greatest element towards the end side in our each swap and when one complete loop is done one of the greatest element is at the end of the list or array.
 
 - `Magic line ->` **Comapre each of the adajcent element if its largers swap otherwise move to next element.**
@@ -46,7 +46,7 @@
 <br><br>
 ---
 
-## 2.) Selection Sort
+## *2.) Selection Sort*
 - In the selection sort we try to place one of the elment from the array at its correct position in each iteration.
 
 - We pick the smallest element from the array (from the unsorted portion) and tries to put it in the beginning of the unsorted array. This same process can be done with the help of largest element only difference would be instead of placing the element at the first we would need to place it at the end.
@@ -79,7 +79,7 @@
 <br><br>
 ---
 
-## 3.) Insertion Sort
+## *3.) Insertion Sort*
 - In insertion sort we break our array into two parts as the sorted part and other as the unsorted part. Array with its first element is considered as the sorted portion and the rest of the array is unsorted. Having Just a single element indicates that its a sorted array only. We just have assumed that the element present at the 0<sup>th</sup> position as the sorted array.
 
 - Then we just pick one element from the unsorted portion and try to put it at its correct position in the sorted array.
@@ -114,7 +114,7 @@
 <br><br>
 ---
 
-## 3.) Counting Sort
+## *4.) Counting Sort*
 - The counting Sort we generally try to apply at the situations where the range of elements we get are very low i.e the elements lie between the maximum element - minimum element and that too the range is less.
 
 - Counting Sort is a non-comparison-based sorting algorithm that works well when there is limited range of input values. It is particularly efficient when the range of input values is small compared to the number of elements to be sorted. The basic idea behind Counting Sort is to count the frequency of each distinct element in the input array and use that information to place the elements in their correct sorted positions.
@@ -203,7 +203,7 @@
 <br><br>
 ---
 
-## In-Built Sort in C++
+## *In-Built Sort in C++*
 - We have some in built sorting functions as sort() - Which sorts the array in both ascending and descending order.
 
 - They are used for sorting the array in place within the array and don't return any value.
