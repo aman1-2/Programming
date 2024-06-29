@@ -10,6 +10,12 @@
 
 - With the help of these classes and objects, we can make real world entites present in our code.
 
+- We have Four Major Pillars in Object Oriented Programming they are as follow:-
+    1. Encapsulation
+    2. Inheritance
+    3. Polymorphism
+    4. Abstraction
+
 !["Introduction"](./Assets/image1.png)
 
 ---
@@ -64,7 +70,7 @@
 <br><br>
 ---
 
-## Encapsulation
+# 1.) Encapsulation
 
 - Its a method of wrapping up the data member or member function inside one single unit.
 
@@ -200,7 +206,7 @@
 <br><br>
 ---
 
-## Inheritance
+# 2.) Inheritance
 
 - Inheritance can be understood with the help of a family tree where the properties of parents are passed onto the child.
 
@@ -267,3 +273,155 @@
 - Its a mix of different type of inheritances.
 
 !["Hybrid Inheritance"](./Assets/image28.png)
+
+---
+<br><br>
+---
+
+# 3.) Polymorphism
+
+- The word Polymorphism is made up of `poly` - which means many and `morph` - which means form.
+
+- Which indicates that polymorphism means any thing which has many forms.
+
+- The smiliar function name with different parameters can come under Polymorphism.
+    a real world example for it could be Right. The word right can have different meaning when used at different place. It can have one meaning as right of right and wrong and other could be right of left and right.
+
+- We have two different type of Polymorphism as:-
+    1. Compile-time Polymorphism (In this which function will be called will be evoked at compile time.)
+    2. Run-time Polymorphism (In this which function will be evoked will be decided at run time.)
+
+!["Polymorphism"](./Assets/image29.png)
+
+---
+
+## Compile Time Polymorphism
+
+- We have two different type of Compile time Polymorphism. They are as follow:-
+    1. Function Overloading
+    2. Operator Overloading
+
+- `Overloading ->` In overloading we have same function name for more than one function but different count and type of parameters passed in it.
+
+### Function Overloading
+
+- `Function Overloading ->` In overloading we have same function name for more than one function but different count and type of parameters passed in it.
+
+!["Function Overloading"](./Assets/image30.png)
+----
+
+### Operator Overloading
+
+- `Operator Overloading ->` In the operator overloading polymorphism the same operator used for doing some other function like the '+' Operator has its functionality defined for adding two integer or floating numbers in c++ even if we pass two string the '+' operator wil perform the concatenation operation.
+
+- But there is no functionality defined for what to do when the '+' operation is done on some user defined class for that we make our own operator overloading function.
+
+!["Operator Overloading](./Assets/image31.png)
+
+!["Operator Overloading](./Assets/image32.png)
+
+----
+
+## Run Time Polymorphism
+
+- We have two different type of Run time Polymorphism. They are as follow:-
+    1. Function Overriding
+    2. Virtual Function
+
+### Function Overriding
+
+- Inside function overriding if we have a child class and a parent class having a fucntion with the same name and the object is being created with the child class then child class function will override the parent class function and child class function will be used.
+
+- Here the decision of which function will be runned is decisided at the run-time during copilation it has no idea of which function will run.
+
+- Differences between the function Overloading and function overriding:-
+    1. Function overloading comes under Compile time polymorphism
+    whereas function overriding comes under Run time polymorphism
+
+    2. Inside function overloading two functions with same name but different parameter type and count are there within the same class..
+    whereas the function overrriding the inherit property is shown i.e, the same function name with different implementation are inside different classes one inside the parent class and other inside the child class.
+
+!["Function overriding"](./Assets/image33.png)
+----
+
+### Virtual Functions
+
+- Virtual function are defined with the virtual keyword.
+
+- They are just similar to the normal function overriden functions.
+
+- Here what we have special is if a function in the base class(parent class) has a virtual function then it must be redefined inside our child class which is not so in the normal function.
+
+- And the virtual function is always defined in the parent (base) class with the virtual keyword. Whereas the child class has redifnation of the virtual function without the virtual keyword just as normal function definition.
+
+!["Virtual function"](./Assets/image34.png)
+
+!["Virtual function"](./Assets/image35.png)
+
+---
+<br><br>
+---
+
+# 4.) Abstraction
+
+- Abstraction is the concept which talks about hiding the unnecessary details and showing the important details.
+
+- In a way by implementing the 'Access Specifier' we were alreading having the abstraction where we were hidding and protecting the data with private and protected keyword whereas with the public keyword making it available.
+
+- `Difference between the Encapsulation and Abstraction:-`
+    1. Inside Encapsulation we talk about the concept where we try to bind the data and its member functions and propertied into one thing which is Class and too talk about the concept of data hiding.
+    Whereas in Abstraction we specifically talk about the concept of data hiding off some unnecessary details which is not useful to user and showing only those part of information which is relevant to our user.
+
+- One of the way of implementing Abstraction is through the access specifier whereas the other method of implementing the concept of abstraction is through Abstract Classes and Pure Virtual Function
+
+- The work of Abstract Class is only to provide a blueprint for our child class which tells us how our child class will look like and what all functions and properties it will have Basic Function of Abstract class is to make its properties be inherit in the child class it itself never creates or have any objects.
+
+- Abstract class must have atleast one virtual function in it.
+
+- Now Pure Virtual Functions are those which doesn't have any proper defination of what functionality they have to do they are actually meant for doing an incomplete information is there.
+
+!["Abstraction vs Encapsulation"](./Assets/image36.png)
+
+!["Abstraction"](./Assets/image37.png)
+
+!["Abstraction"](./Assets/image38.png)
+
+!["Abstraction"](./Assets/image39.png)
+
+---
+
+## Knowing About the Pure Virtual Function a little bit more
+
+- A Pure Virtual Function has no Logic or defination defined for it and they are declared with a value Zero.
+
+        Syntax -
+            virtual void fun() = 0;
+
+- The keyword Virtual made it a Virtual function and assigning a value Zero to it made it a Pure Virtual Function.
+
+- A Pure Virtual Function When gets inherited and redefined it then gets a proper logic defination there.
+
+!["Pur Virtual Function"](./Assets/image40.png)
+
+
+---
+<br><br>
+---
+
+## Static Keyword
+
+- A Static Keyword is similar to Global Keyword. The Only differance is Global Keyword is used for making the variables global by defining them outside the function or any block scope whereas Static helps us to make the variable Global just by using the Static keyword.
+
+- A static keywords variables life is till the program ends.
+
+!["Static Variables"](./Assets/image41.png)
+
+---
+<br><br>
+---
+
+## Friend Function/Class
+
+- A friend Function or a Friend Class is a function/class which can access the private and protected members of a class without inheriting them and its vice-versa is not true.
+
+!["Friend Function/Class"](./Assets/image42.png)
