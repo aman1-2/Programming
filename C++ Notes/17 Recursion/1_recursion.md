@@ -96,3 +96,54 @@
 ### Pratice Question
 
 !["Pratice Question"](./Assets/image18.png)
+
+---
+<br><br>
+---
+
+## Good Level Pratice Question
+
+### Question-1 Tiling Problem
+
+!["Tiling Problem"](./Assets/image19.png)
+
+!["Tiling Problem"](./Assets/image20.png)
+
+!["Tiling Problem"](./Assets/image21.png)
+
+!["Tiling Problem"](./Assets/image22.png)
+
+!["Tiling Problem"](./Assets/image23.png)
+
+---
+<br>
+
+### Question-2 Remove Duplicate characters from strings
+
+!["Remove Duplicate characters from string"](./Assets/image24.png)
+
+!["Remove Duplicate characters from string"](./Assets/image25.png)
+
+!["Remove Duplicate characters from string"](./Assets/image26.png)
+
+---
+<br>
+
+### Question-3 Friends Pairing Problem
+
+!["Friends Pairing Problem"](./Assets/image27.png)
+
+!["Friends Pairing Problem"](./Assets/image28.png)
+
+!["Friends Pairing Problem"](./Assets/image29.png)
+
+---
+<br>
+
+### Question-4 Binary String Problem
+
+!["Binary String Problem"](./Assets/image30.png)
+
+!["Binary String Problem"](./Assets/image31.png)
+
+!["Binary String Problem"](./Assets/image32.png)
